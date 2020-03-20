@@ -1,0 +1,372 @@
+.color-blue
+{
+	color: #4287f5;
+}
+.color-white
+{
+	color:white;
+}
+.bg-white
+{
+	background-color: white;
+}
+.bg-gray
+{
+	background-color: #e6e6e6;
+}
+.color-gray
+{
+	color: #b8b8b8;
+}
+.gen-label
+{
+
+}
+.sec1-tab1,.sec1-tab2
+{
+	display: none;
+}
+#sec1-r1:checked ~  .text .sec1-tab1
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec1-r2:checked ~  .text .sec1-tab2
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+.labels
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: left;
+	z-index: 10;
+
+}
+.br1
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c7c7c7; 
+
+	border-top-width: 2px;
+	border-radius: 4px 4px 0 0;
+	padding: 8px 12px;
+	border-bottom: none;
+}
+.grid1
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	
+}
+.sec1-main input
+{
+	display: none;
+}
+.text
+{
+	padding: 16px 10px;
+	border:1px solid #c7c7c7;
+	margin:-1px 0;
+}
+.dis-b
+{
+	display: inline-block;
+}
+#sec1-r1:checked ~  .labels #sec1-l1
+{
+	background-color: white;
+	border-top-color: #4287f5;
+}
+#sec1-r2:checked ~  .labels #sec1-l2
+{
+	background-color: white;
+	border-top-color: #4287f5;
+	
+}
+
+
+.sec2-tab1,.sec2-tab2
+{
+	display: none;
+}
+#sec2-r1:checked ~  .text .sec2-tab1
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec2-r2:checked ~  .text .sec2-tab2
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec2-r1:checked ~  .labels #sec2-l1
+{
+	background-color: white;
+	border-top-color: #4287f5;
+}
+#sec2-r2:checked ~  .labels #sec2-l2
+{
+	background-color: white;
+	border-top-color: #4287f5;
+	
+}
+.sec2-main input
+{
+	display: none;
+}
+.sec2-main .labels
+{
+	justify-content: right;
+}
+
+
+/*tabs3*/
+.b2
+{
+
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c7c7c7; 
+
+	border-bottom-width: 2px;
+	border-radius:  0 0 4px 4px;
+	padding: 8px 12px;
+	border-top: none;
+}
+
+.sec3-tab1,.sec3-tab2
+{
+	display: none;
+}
+#sec3-r1:checked ~  .text .sec3-tab1
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec3-r2:checked ~  .text .sec3-tab2
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec3-r1:checked ~  .labels #sec3-l1
+{
+	background-color: white;
+	border-bottom-color: #4287f5;
+}
+#sec3-r2:checked ~  .labels #sec3-l2
+{
+	background-color: white;
+	border-bottom-color: #4287f5;
+	
+}
+.sec3-main input
+{
+	display: none;
+}
+.sec3-main .labels
+{
+	justify-content: right;
+}
+
+/*tab4*/
+.grid2
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: left;
+}
+.labels2
+{
+	display: grid;
+	grid-template-rows: auto auto;
+	
+	z-index: 10;
+	align-content: baseline;
+
+}
+.b3
+{
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c7c7c7; 
+
+	border-bottom-width: 2px;
+	border-radius:  0 0 4px 4px;
+	padding: 8px 12px;
+	border-top: none;
+}
+.dis-g
+{
+	display: grid;
+}
+.sec4-tab1,.sec4-tab2
+{
+	display: none;
+}
+#sec4-r1:checked ~  .text .sec4-tab1
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec4-r2:checked ~  .text .sec4-tab2
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec4-r1:checked ~  .labels2 #sec4-l1
+{
+	background-color: white;
+	border-left-color: #4287f5;
+}
+#sec4-r2:checked ~  .labels2 #sec4-l2
+{
+	background-color: white;
+	border-left-color: #4287f5;
+	
+}
+.sec4-main input
+{
+	display: none;
+}
+.b4
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c7c7c7; 
+
+	border-left-width: 2px;
+	border-radius: 4px 0 0 4px;
+	padding: 8px 12px;
+	border-right:none;
+}
+.sec4-main .text
+{
+	margin: 0 -1px;
+}
+/*tab5*/
+
+
+.sec5-tab1,.sec5-tab2
+{
+	display: none;
+}
+
+
+.grid2
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: left;
+}
+.labels2
+{
+	display: grid;
+	grid-template-rows: auto auto;
+	
+	z-index: 10;
+	align-content: baseline;
+
+}
+
+.dis-g
+{
+	display: grid;
+}
+.sec4-tab1,.sec4-tab2
+{
+	display: none;
+}
+#sec5-r1:checked ~  .text .sec5-tab1
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec5-r2:checked ~  .text .sec5-tab2
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec5-r1:checked ~  .labels2 #sec5-l1
+{
+	background-color: white;
+	border-left-color: #4287f5;
+}
+#sec5-r2:checked ~  .labels2 #sec5-l2
+{
+	background-color: white;
+	border-left-color: #4287f5;
+	
+}
+.sec5-main input
+{
+	display: none;
+}
+.b5
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c7c7c7; 
+
+	border-right-width: 2px;
+	border-radius: 0 4px 4px 0;
+	padding: 8px 12px;
+	border-left:none;
+}
+.sec5-main .text
+{
+	margin-right: -1px;
+}
+
+/*tab6*/
+
+#sec6-r1:checked ~  .text .sec6-tab1
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+#sec6-r2:checked ~  .text .sec6-tab2
+{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-row-gap: 10px;
+}
+.sec6-tab1,.sec6-tab2
+{
+	display: none;
+}
+#sec6-r1:checked ~  .labels #sec6-l1
+{
+	background-color: white;
+	border-top-color: #4287f5;
+}
+
+#sec6-r2:checked ~  .labels #sec6-l2
+{
+	background-color: white;
+	border-top-color: #4287f5;
+	
+}
+.sec6-main input
+{
+	display: none;
+}
+.sec6-main .labels
+{
+	justify-content: center;
+}
